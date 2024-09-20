@@ -1,11 +1,11 @@
-import {View, Text} from 'react-native'
+import {View, Text,ActivityIndicator} from 'react-native'
 import React from 'react'
 
-export default function Home() {
+export default function StartPage() {
 
   return (
-    <View className="pt-40  bg-red-200">
-      <Text className="text-3xl text-center">Home</Text>
+    <View className="flex-1 justify-center items-center">
+      <ActivityIndicator size="large" color="gray" />
     </View>
   );
 
